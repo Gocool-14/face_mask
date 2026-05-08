@@ -44,6 +44,6 @@ if uploaded_file is not None:
     # -------------------------------
 
     if result == "with_mask":
-        st.success("Person is wearing a mask 😷")
+        st.success("Person is wearing a mask ")
     else:
-        st.error("Person is NOT wearing a mask ⚠️")
+        st.error("Person is NOT wearing a mask ")
