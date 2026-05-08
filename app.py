@@ -4,7 +4,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 # Load model
-model = load_model("face_mask_model.h5")
+model = load_model("face_model.h5")
 
 st.title("Face Mask Detection App")
 
